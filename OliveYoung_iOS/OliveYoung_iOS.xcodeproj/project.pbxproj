@@ -20,6 +20,11 @@
 		9263149C264FB20400E8E8FD /* OliveReview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9263149B264FB20400E8E8FD /* OliveReview.storyboard */; };
 		9263149F264FB25800E8E8FD /* OliveHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263149E264FB25800E8E8FD /* OliveHomeVC.swift */; };
 		926314A2264FB27900E8E8FD /* OliveReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314A1264FB27900E8E8FD /* OliveReviewVC.swift */; };
+		926314A5264FB49F00E8E8FD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314A4264FB49F00E8E8FD /* File.swift */; };
+		926314A8264FB4A900E8E8FD /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314A7264FB4A900E8E8FD /* File1.swift */; };
+		926314AB264FB4B100E8E8FD /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314AA264FB4B100E8E8FD /* File2.swift */; };
+		926314AE264FB4BA00E8E8FD /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314AD264FB4BA00E8E8FD /* File3.swift */; };
+		926314B1264FB4C200E8E8FD /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314B0264FB4C200E8E8FD /* File4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,11 @@
 		9263149B264FB20400E8E8FD /* OliveReview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OliveReview.storyboard; sourceTree = "<group>"; };
 		9263149E264FB25800E8E8FD /* OliveHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveHomeVC.swift; sourceTree = "<group>"; };
 		926314A1264FB27900E8E8FD /* OliveReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveReviewVC.swift; sourceTree = "<group>"; };
+		926314A4264FB49F00E8E8FD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		926314A7264FB4A900E8E8FD /* File1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
+		926314AA264FB4B100E8E8FD /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		926314AD264FB4BA00E8E8FD /* File3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
+		926314B0264FB4C200E8E8FD /* File4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
 		997EB358862C8E69825E97A8 /* Pods_OliveYoung_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OliveYoung_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C465C504A269F44AA15F16 /* Pods-OliveYoung_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.debug.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD9852786FEFBB334D2BF71 /* Pods-OliveYoung_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.release.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +167,7 @@
 		9263148C264FB0C800E8E8FD /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				926314A4264FB49F00E8E8FD /* File.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -164,6 +175,7 @@
 		9263148D264FB0CD00E8E8FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				926314A7264FB4A900E8E8FD /* File1.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +183,7 @@
 		9263148E264FB0D600E8E8FD /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				926314AA264FB4B100E8E8FD /* File2.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -178,6 +191,7 @@
 		9263148F264FB0DC00E8E8FD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				926314AD264FB4BA00E8E8FD /* File3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +199,7 @@
 		92631490264FB0E200E8E8FD /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				926314B0264FB4C200E8E8FD /* File4.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -307,10 +322,15 @@
 			files = (
 				926314A2264FB27900E8E8FD /* OliveReviewVC.swift in Sources */,
 				92631492264FB16600E8E8FD /* APIConstants.swift in Sources */,
+				926314AE264FB4BA00E8E8FD /* File3.swift in Sources */,
 				9263149F264FB25800E8E8FD /* OliveHomeVC.swift in Sources */,
 				92631496264FB18C00E8E8FD /* NetworkResult.swift in Sources */,
+				926314AB264FB4B100E8E8FD /* File2.swift in Sources */,
 				92631473264FACAE00E8E8FD /* ViewController.swift in Sources */,
+				926314A5264FB49F00E8E8FD /* File.swift in Sources */,
 				9263146F264FACAE00E8E8FD /* AppDelegate.swift in Sources */,
+				926314A8264FB4A900E8E8FD /* File1.swift in Sources */,
+				926314B1264FB4C200E8E8FD /* File4.swift in Sources */,
 				92631471264FACAE00E8E8FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
