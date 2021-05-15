@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB918BCFC466FD9240020BA /* Pods_OliveYoung_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997EB358862C8E69825E97A8 /* Pods_OliveYoung_iOS.framework */; };
+		9263146F264FACAE00E8E8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263146E264FACAE00E8E8FD /* AppDelegate.swift */; };
+		92631471264FACAE00E8E8FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92631470264FACAE00E8E8FD /* SceneDelegate.swift */; };
+		92631473264FACAE00E8E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92631472264FACAE00E8E8FD /* ViewController.swift */; };
+		92631476264FACAE00E8E8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92631474264FACAE00E8E8FD /* Main.storyboard */; };
+		92631478264FACB200E8E8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92631477264FACB200E8E8FD /* Assets.xcassets */; };
+		9263147B264FACB200E8E8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92631479264FACB200E8E8FD /* LaunchScreen.storyboard */; };
+		92631492264FB16600E8E8FD /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92631491264FB16600E8E8FD /* APIConstants.swift */; };
+		92631496264FB18C00E8E8FD /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92631495264FB18C00E8E8FD /* NetworkResult.swift */; };
+		92631499264FB1F600E8E8FD /* OliveHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92631498264FB1F600E8E8FD /* OliveHome.storyboard */; };
+		9263149C264FB20400E8E8FD /* OliveReview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9263149B264FB20400E8E8FD /* OliveReview.storyboard */; };
+		9263149F264FB25800E8E8FD /* OliveHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263149E264FB25800E8E8FD /* OliveHomeVC.swift */; };
+		926314A2264FB27900E8E8FD /* OliveReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314A1264FB27900E8E8FD /* OliveReviewVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9263146B264FACAE00E8E8FD /* OliveYoung_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OliveYoung_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9263146E264FACAE00E8E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92631470264FACAE00E8E8FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		92631472264FACAE00E8E8FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92631475264FACAE00E8E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92631477264FACB200E8E8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9263147A264FACB200E8E8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9263147C264FACB200E8E8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92631491264FB16600E8E8FD /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		92631495264FB18C00E8E8FD /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		92631498264FB1F600E8E8FD /* OliveHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OliveHome.storyboard; sourceTree = "<group>"; };
+		9263149B264FB20400E8E8FD /* OliveReview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OliveReview.storyboard; sourceTree = "<group>"; };
+		9263149E264FB25800E8E8FD /* OliveHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveHomeVC.swift; sourceTree = "<group>"; };
+		926314A1264FB27900E8E8FD /* OliveReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveReviewVC.swift; sourceTree = "<group>"; };
+		997EB358862C8E69825E97A8 /* Pods_OliveYoung_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OliveYoung_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C465C504A269F44AA15F16 /* Pods-OliveYoung_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.debug.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD9852786FEFBB334D2BF71 /* Pods-OliveYoung_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.release.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92631468264FACAE00E8E8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB918BCFC466FD9240020BA /* Pods_OliveYoung_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197F4F2D7485438A2F6771E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C465C504A269F44AA15F16 /* Pods-OliveYoung_iOS.debug.xcconfig */,
+				CCD9852786FEFBB334D2BF71 /* Pods-OliveYoung_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3852B06478C7969150769674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				997EB358862C8E69825E97A8 /* Pods_OliveYoung_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92631462264FACAE00E8E8FD = {
+			isa = PBXGroup;
+			children = (
+				9263146D264FACAE00E8E8FD /* OliveYoung_iOS */,
+				9263146C264FACAE00E8E8FD /* Products */,
+				197F4F2D7485438A2F6771E4 /* Pods */,
+				3852B06478C7969150769674 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9263146C264FACAE00E8E8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9263146B264FACAE00E8E8FD /* OliveYoung_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9263146D264FACAE00E8E8FD /* OliveYoung_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				92631487264FAFDA00E8E8FD /* Resources */,
+				92631488264FB00200E8E8FD /* Sources */,
+				9263147C264FACB200E8E8FD /* Info.plist */,
+			);
+			path = OliveYoung_iOS;
+			sourceTree = "<group>";
+		};
+		92631487264FAFDA00E8E8FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9263146E264FACAE00E8E8FD /* AppDelegate.swift */,
+				92631470264FACAE00E8E8FD /* SceneDelegate.swift */,
+				92631477264FACB200E8E8FD /* Assets.xcassets */,
+				92631489264FB05B00E8E8FD /* Storyboard */,
+				9263148A264FB07700E8E8FD /* APIService */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92631488264FB00200E8E8FD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9263148B264FB0BF00E8E8FD /* VC */,
+				9263148C264FB0C800E8E8FD /* Cell */,
+				9263148D264FB0CD00E8E8FD /* Model */,
+				9263148E264FB0D600E8E8FD /* Class */,
+				9263148F264FB0DC00E8E8FD /* View */,
+				92631490264FB0E200E8E8FD /* Extension */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		92631489264FB05B00E8E8FD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				92631474264FACAE00E8E8FD /* Main.storyboard */,
+				92631479264FACB200E8E8FD /* LaunchScreen.storyboard */,
+				92631498264FB1F600E8E8FD /* OliveHome.storyboard */,
+				9263149B264FB20400E8E8FD /* OliveReview.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9263148A264FB07700E8E8FD /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				92631491264FB16600E8E8FD /* APIConstants.swift */,
+				92631495264FB18C00E8E8FD /* NetworkResult.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		9263148B264FB0BF00E8E8FD /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				92631472264FACAE00E8E8FD /* ViewController.swift */,
+				9263149E264FB25800E8E8FD /* OliveHomeVC.swift */,
+				926314A1264FB27900E8E8FD /* OliveReviewVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9263148C264FB0C800E8E8FD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9263148D264FB0CD00E8E8FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9263148E264FB0D600E8E8FD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9263148F264FB0DC00E8E8FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92631490264FB0E200E8E8FD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9263146A264FACAE00E8E8FD /* OliveYoung_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9263147F264FACB200E8E8FD /* Build configuration list for PBXNativeTarget "OliveYoung_iOS" */;
+			buildPhases = (
+				6E423B1BFFC7A34484C1982D /* [CP] Check Pods Manifest.lock */,
+				92631467264FACAE00E8E8FD /* Sources */,
+				92631468264FACAE00E8E8FD /* Frameworks */,
+				92631469264FACAE00E8E8FD /* Resources */,
+				453AF75961AE1656482402AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OliveYoung_iOS;
+			productName = OliveYoung_iOS;
+			productReference = 9263146B264FACAE00E8E8FD /* OliveYoung_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92631463264FACAE00E8E8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9263146A264FACAE00E8E8FD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 92631466264FACAE00E8E8FD /* Build configuration list for PBXProject "OliveYoung_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92631462264FACAE00E8E8FD;
+			productRefGroup = 9263146C264FACAE00E8E8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9263146A264FACAE00E8E8FD /* OliveYoung_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92631469264FACAE00E8E8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9263147B264FACB200E8E8FD /* LaunchScreen.storyboard in Resources */,
+				92631478264FACB200E8E8FD /* Assets.xcassets in Resources */,
+				9263149C264FB20400E8E8FD /* OliveReview.storyboard in Resources */,
+				92631476264FACAE00E8E8FD /* Main.storyboard in Resources */,
+				92631499264FB1F600E8E8FD /* OliveHome.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		453AF75961AE1656482402AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E423B1BFFC7A34484C1982D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OliveYoung_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92631467264FACAE00E8E8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926314A2264FB27900E8E8FD /* OliveReviewVC.swift in Sources */,
+				92631492264FB16600E8E8FD /* APIConstants.swift in Sources */,
+				9263149F264FB25800E8E8FD /* OliveHomeVC.swift in Sources */,
+				92631496264FB18C00E8E8FD /* NetworkResult.swift in Sources */,
+				92631473264FACAE00E8E8FD /* ViewController.swift in Sources */,
+				9263146F264FACAE00E8E8FD /* AppDelegate.swift in Sources */,
+				92631471264FACAE00E8E8FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92631474264FACAE00E8E8FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92631475264FACAE00E8E8FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92631479264FACB200E8E8FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9263147A264FACB200E8E8FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9263147D264FACB200E8E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9263147E264FACB200E8E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92631480264FACB200E8E8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C465C504A269F44AA15F16 /* Pods-OliveYoung_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89UV4AXWM4;
+				INFOPLIST_FILE = OliveYoung_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Seohyun.OliveYoung-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92631481264FACB200E8E8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD9852786FEFBB334D2BF71 /* Pods-OliveYoung_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89UV4AXWM4;
+				INFOPLIST_FILE = OliveYoung_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Seohyun.OliveYoung-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92631466264FACAE00E8E8FD /* Build configuration list for PBXProject "OliveYoung_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9263147D264FACB200E8E8FD /* Debug */,
+				9263147E264FACB200E8E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9263147F264FACB200E8E8FD /* Build configuration list for PBXNativeTarget "OliveYoung_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92631480264FACB200E8E8FD /* Debug */,
+				92631481264FACB200E8E8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92631463264FACAE00E8E8FD /* Project object */;
+}
