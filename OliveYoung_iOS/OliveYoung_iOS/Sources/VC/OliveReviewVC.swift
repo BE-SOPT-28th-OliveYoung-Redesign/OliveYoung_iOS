@@ -139,7 +139,7 @@ class OliveReviewVC: UIViewController, UICollectionViewDelegate, UIScrollViewDel
     // 가로 스크롤 안되게
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if scrollView.contentOffset.x > 0 {
-            scrollView.contentOffset.x = 0
+           // scrollView.contentOffset.x = 0
         }
     }
 
