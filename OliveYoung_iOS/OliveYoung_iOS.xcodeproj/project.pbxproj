@@ -25,6 +25,23 @@
 		926314AB264FB4B100E8E8FD /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314AA264FB4B100E8E8FD /* File2.swift */; };
 		926314AE264FB4BA00E8E8FD /* File3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314AD264FB4BA00E8E8FD /* File3.swift */; };
 		926314B1264FB4C200E8E8FD /* File4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926314B0264FB4C200E8E8FD /* File4.swift */; };
+		EC4A5E9F2657DD6500E232FF /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A5E9E2657DD6500E232FF /* HeaderCollectionReusableView.swift */; };
+		EC8F098B2654F5C300367402 /* RankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F098A2654F5C300367402 /* RankingCell.swift */; };
+		EC8F098D2655FB3F00367402 /* RankingListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F098C2655FB3F00367402 /* RankingListDataModel.swift */; };
+		EC9CF4032653D0F500BB1B71 /* RankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF4022653D0F500BB1B71 /* RankingVC.swift */; };
+		EC9CF40526540A9000BB1B71 /* OtkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40426540A9000BB1B71 /* OtkVC.swift */; };
+		EC9CF40726540A9700BB1B71 /* SinsangVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40626540A9700BB1B71 /* SinsangVC.swift */; };
+		EC9CF40926540AA300BB1B71 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40826540AA300BB1B71 /* homeVC.swift */; };
+		EC9CF40B26540AAD00BB1B71 /* KihoickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40A26540AAD00BB1B71 /* KihoickVC.swift */; };
+		EC9CF40D26540AB500BB1B71 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9CF40C26540AB500BB1B71 /* EventVC.swift */; };
+		ECAE123826517C5A002A3533 /* homeViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE123626517C5A002A3533 /* homeViewCollectionViewCell.swift */; };
+		ECAE123926517C5A002A3533 /* homeViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECAE123726517C5A002A3533 /* homeViewCollectionViewCell.xib */; };
+		ECAE124326518247002A3533 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE124226518247002A3533 /* BaseVC.swift */; };
+		ECAE124726523825002A3533 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE124626523825002A3533 /* MenuBar.swift */; };
+		ECAE12492652424F002A3533 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE12482652424F002A3533 /* Extension.swift */; };
+		ECAE124C2652427B002A3533 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE124A2652427B002A3533 /* DetailCollectionViewCell.swift */; };
+		ECAE124D2652427B002A3533 /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECAE124B2652427B002A3533 /* DetailCollectionViewCell.xib */; };
+		ECAE124F2652429D002A3533 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE124E2652429D002A3533 /* Color.swift */; };
 		ECD4A1602658C5BF004E9BA4 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A15F2658C5BF004E9BA4 /* Montserrat-Thin.ttf */; };
 		ECD4A16A2658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1612658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf */; };
 		ECD4A16B2658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1622658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf */; };
@@ -61,6 +78,25 @@
 		926314AA264FB4B100E8E8FD /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		926314AD264FB4BA00E8E8FD /* File3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File3.swift; sourceTree = "<group>"; };
 		926314B0264FB4C200E8E8FD /* File4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File4.swift; sourceTree = "<group>"; };
+		D01ADAE3263FFA11220D6A86 /* Pods_OliveYoung_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OliveYoung_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EAB98233AD1B9FEC1286C2 /* Pods-OliveYoung_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.release.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		EC4A5E9E2657DD6500E232FF /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		EC8F098A2654F5C300367402 /* RankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCell.swift; sourceTree = "<group>"; };
+		EC8F098C2655FB3F00367402 /* RankingListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingListDataModel.swift; sourceTree = "<group>"; };
+		EC9CF4022653D0F500BB1B71 /* RankingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingVC.swift; sourceTree = "<group>"; };
+		EC9CF40426540A9000BB1B71 /* OtkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtkVC.swift; sourceTree = "<group>"; };
+		EC9CF40626540A9700BB1B71 /* SinsangVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinsangVC.swift; sourceTree = "<group>"; };
+		EC9CF40826540AA300BB1B71 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		EC9CF40A26540AAD00BB1B71 /* KihoickVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KihoickVC.swift; sourceTree = "<group>"; };
+		EC9CF40C26540AB500BB1B71 /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		ECAE123626517C5A002A3533 /* homeViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = homeViewCollectionViewCell.swift; path = OliveYoung_iOS/Sources/Cell/homeView/homeViewCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		ECAE123726517C5A002A3533 /* homeViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = homeViewCollectionViewCell.xib; path = OliveYoung_iOS/Sources/Cell/homeView/homeViewCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
+		ECAE124226518247002A3533 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		ECAE124626523825002A3533 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		ECAE12482652424F002A3533 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		ECAE124A2652427B002A3533 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECAE124B2652427B002A3533 /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		ECAE124E2652429D002A3533 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		ECD4A15F2658C5BF004E9BA4 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		ECD4A1612658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
 		ECD4A1622658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
@@ -183,6 +219,7 @@
 				92631472264FACAE00E8E8FD /* ViewController.swift */,
 				9263149E264FB25800E8E8FD /* OliveHomeVC.swift */,
 				926314A1264FB27900E8E8FD /* OliveReviewVC.swift */,
+				EC9CF40E26540ABE00BB1B71 /* OliveHomeVC */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -190,6 +227,8 @@
 		9263148C264FB0C800E8E8FD /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				EC9CF40F2654299300BB1B71 /* homeView */,
+				EC9CF410265429BB00BB1B71 /* Detail */,
 				926314A4264FB49F00E8E8FD /* File.swift */,
 			);
 			path = Cell;
@@ -223,6 +262,8 @@
 		92631490264FB0E200E8E8FD /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ECAE12482652424F002A3533 /* Extension.swift */,
+				ECAE124E2652429D002A3533 /* Color.swift */,
 				926314B0264FB4C200E8E8FD /* File4.swift */,
 			);
 			path = Extension;
@@ -243,6 +284,50 @@
 				ECD4A15F2658C5BF004E9BA4 /* Montserrat-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		95F1C47A352CA2A0FDDC81E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01ADAE3263FFA11220D6A86 /* Pods_OliveYoung_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9CF40E26540ABE00BB1B71 /* OliveHomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE124226518247002A3533 /* BaseVC.swift */,
+				ECAE124626523825002A3533 /* MenuBar.swift */,
+				EC9CF4022653D0F500BB1B71 /* RankingVC.swift */,
+				EC4A5E9E2657DD6500E232FF /* HeaderCollectionReusableView.swift */,
+				EC8F098A2654F5C300367402 /* RankingCell.swift */,
+				EC8F098C2655FB3F00367402 /* RankingListDataModel.swift */,
+				EC9CF40426540A9000BB1B71 /* OtkVC.swift */,
+				EC9CF40626540A9700BB1B71 /* SinsangVC.swift */,
+				EC9CF40826540AA300BB1B71 /* homeVC.swift */,
+				EC9CF40A26540AAD00BB1B71 /* KihoickVC.swift */,
+				EC9CF40C26540AB500BB1B71 /* EventVC.swift */,
+			);
+			path = OliveHomeVC;
+			sourceTree = "<group>";
+		};
+		EC9CF40F2654299300BB1B71 /* homeView */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE123626517C5A002A3533 /* homeViewCollectionViewCell.swift */,
+				ECAE123726517C5A002A3533 /* homeViewCollectionViewCell.xib */,
+			);
+			path = homeView;
+			sourceTree = "<group>";
+		};
+		EC9CF410265429BB00BB1B71 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE124A2652427B002A3533 /* DetailCollectionViewCell.swift */,
+				ECAE124B2652427B002A3533 /* DetailCollectionViewCell.xib */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +393,7 @@
 				ECD4A1712658C5CB004E9BA4 /* NotoSansCJKkr-Regular.otf in Resources */,
 				ECD4A16A2658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf in Resources */,
 				ECD4A16E2658C5CB004E9BA4 /* NotoSansCJKkr-Black.otf in Resources */,
+				ECAE124D2652427B002A3533 /* DetailCollectionViewCell.xib in Resources */,
 				92631478264FACB200E8E8FD /* Assets.xcassets in Resources */,
 				9263149C264FB20400E8E8FD /* OliveReview.storyboard in Resources */,
 				92631476264FACAE00E8E8FD /* Main.storyboard in Resources */,
@@ -316,6 +402,7 @@
 				ECD4A16F2658C5CB004E9BA4 /* NotoSansCJKkr-DemiLight.otf in Resources */,
 				ECD4A16C2658C5CB004E9BA4 /* NotoSansMonoCJKkr-Regular.otf in Resources */,
 				ECD4A1722658C5CB004E9BA4 /* NotoSansCJKkr-Bold.otf in Resources */,
+				ECAE123926517C5A002A3533 /* homeViewCollectionViewCell.xib in Resources */,
 				92631499264FB1F600E8E8FD /* OliveHome.storyboard in Resources */,
 				ECD4A1702658C5CB004E9BA4 /* NotoSansMonoCJKkr-Bold.otf in Resources */,
 				ECD4A16B2658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf in Resources */,
@@ -326,23 +413,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		6F7336852ECD5020FEAC3479 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7DDB75EAFA30CFAD0E898A69 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +434,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7DDB75EAFA30CFAD0E898A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,19 +458,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAE124326518247002A3533 /* BaseVC.swift in Sources */,
+				EC9CF40526540A9000BB1B71 /* OtkVC.swift in Sources */,
+				ECAE124F2652429D002A3533 /* Color.swift in Sources */,
+				EC9CF40D26540AB500BB1B71 /* EventVC.swift in Sources */,
+				ECAE124C2652427B002A3533 /* DetailCollectionViewCell.swift in Sources */,
 				926314A2264FB27900E8E8FD /* OliveReviewVC.swift in Sources */,
 				92631492264FB16600E8E8FD /* APIConstants.swift in Sources */,
 				926314AE264FB4BA00E8E8FD /* File3.swift in Sources */,
+				EC8F098B2654F5C300367402 /* RankingCell.swift in Sources */,
 				9263149F264FB25800E8E8FD /* OliveHomeVC.swift in Sources */,
 				92631496264FB18C00E8E8FD /* NetworkResult.swift in Sources */,
+				EC9CF4032653D0F500BB1B71 /* RankingVC.swift in Sources */,
 				926314AB264FB4B100E8E8FD /* File2.swift in Sources */,
 				F25312FF2657CA92003554B7 /* ProductCollectionViewCell.swift in Sources */,
 				92631473264FACAE00E8E8FD /* ViewController.swift in Sources */,
 				926314A5264FB49F00E8E8FD /* File.swift in Sources */,
 				9263146F264FACAE00E8E8FD /* AppDelegate.swift in Sources */,
+				ECAE12492652424F002A3533 /* Extension.swift in Sources */,
 				926314A8264FB4A900E8E8FD /* File1.swift in Sources */,
+				ECAE124726523825002A3533 /* MenuBar.swift in Sources */,
+				EC4A5E9F2657DD6500E232FF /* HeaderCollectionReusableView.swift in Sources */,
+				ECAE123826517C5A002A3533 /* homeViewCollectionViewCell.swift in Sources */,
+				EC9CF40726540A9700BB1B71 /* SinsangVC.swift in Sources */,
+				EC9CF40926540AA300BB1B71 /* homeVC.swift in Sources */,
 				926314B1264FB4C200E8E8FD /* File4.swift in Sources */,
 				92631471264FACAE00E8E8FD /* SceneDelegate.swift in Sources */,
+				EC8F098D2655FB3F00367402 /* RankingListDataModel.swift in Sources */,
+				EC9CF40B26540AAD00BB1B71 /* KihoickVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
