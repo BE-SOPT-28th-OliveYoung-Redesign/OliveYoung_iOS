@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A3D31C20427506D7AFBAC3C /* Pods_OliveYoung_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01ADAE3263FFA11220D6A86 /* Pods_OliveYoung_iOS.framework */; };
+		5FA5465C53D312217FB0EEC0 /* Pods_OliveYoung_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0F2959D78BAC8EEE2EF9DD /* Pods_OliveYoung_iOS.framework */; };
 		9263146F264FACAE00E8E8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9263146E264FACAE00E8E8FD /* AppDelegate.swift */; };
 		92631471264FACAE00E8E8FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92631470264FACAE00E8E8FD /* SceneDelegate.swift */; };
 		92631473264FACAE00E8E8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92631472264FACAE00E8E8FD /* ViewController.swift */; };
@@ -42,10 +42,23 @@
 		ECAE124C2652427B002A3533 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE124A2652427B002A3533 /* DetailCollectionViewCell.swift */; };
 		ECAE124D2652427B002A3533 /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECAE124B2652427B002A3533 /* DetailCollectionViewCell.xib */; };
 		ECAE124F2652429D002A3533 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAE124E2652429D002A3533 /* Color.swift */; };
+		ECD4A1602658C5BF004E9BA4 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A15F2658C5BF004E9BA4 /* Montserrat-Thin.ttf */; };
+		ECD4A16A2658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1612658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf */; };
+		ECD4A16B2658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1622658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf */; };
+		ECD4A16C2658C5CB004E9BA4 /* NotoSansMonoCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1632658C5CB004E9BA4 /* NotoSansMonoCJKkr-Regular.otf */; };
+		ECD4A16D2658C5CB004E9BA4 /* NotoSansCJKkr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1642658C5CB004E9BA4 /* NotoSansCJKkr-Thin.otf */; };
+		ECD4A16E2658C5CB004E9BA4 /* NotoSansCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1652658C5CB004E9BA4 /* NotoSansCJKkr-Black.otf */; };
+		ECD4A16F2658C5CB004E9BA4 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1662658C5CB004E9BA4 /* NotoSansCJKkr-DemiLight.otf */; };
+		ECD4A1702658C5CB004E9BA4 /* NotoSansMonoCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1672658C5CB004E9BA4 /* NotoSansMonoCJKkr-Bold.otf */; };
+		ECD4A1712658C5CB004E9BA4 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1682658C5CB004E9BA4 /* NotoSansCJKkr-Regular.otf */; };
+		ECD4A1722658C5CB004E9BA4 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECD4A1692658C5CB004E9BA4 /* NotoSansCJKkr-Bold.otf */; };
+		F25312FF2657CA92003554B7 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25312FE2657CA92003554B7 /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63603D301CF9C10A1E962C1C /* Pods-OliveYoung_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.debug.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0F826A499B1FA6828DD5A23B /* Pods-OliveYoung_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.release.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4CDFB397DA7A0D6AFB328713 /* Pods-OliveYoung_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OliveYoung_iOS.debug.xcconfig"; path = "Target Support Files/Pods-OliveYoung_iOS/Pods-OliveYoung_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0F2959D78BAC8EEE2EF9DD /* Pods_OliveYoung_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OliveYoung_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9263146B264FACAE00E8E8FD /* OliveYoung_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OliveYoung_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9263146E264FACAE00E8E8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92631470264FACAE00E8E8FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +97,17 @@
 		ECAE124A2652427B002A3533 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		ECAE124B2652427B002A3533 /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
 		ECAE124E2652429D002A3533 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		ECD4A15F2658C5BF004E9BA4 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		ECD4A1612658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
+		ECD4A1622658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		ECD4A1632658C5CB004E9BA4 /* NotoSansMonoCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		ECD4A1642658C5CB004E9BA4 /* NotoSansCJKkr-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Thin.otf"; sourceTree = "<group>"; };
+		ECD4A1652658C5CB004E9BA4 /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; };
+		ECD4A1662658C5CB004E9BA4 /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; };
+		ECD4A1672658C5CB004E9BA4 /* NotoSansMonoCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansMonoCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		ECD4A1682658C5CB004E9BA4 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		ECD4A1692658C5CB004E9BA4 /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		F25312FE2657CA92003554B7 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3D31C20427506D7AFBAC3C /* Pods_OliveYoung_iOS.framework in Frameworks */,
+				5FA5465C53D312217FB0EEC0 /* Pods_OliveYoung_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +125,18 @@
 		197F4F2D7485438A2F6771E4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				63603D301CF9C10A1E962C1C /* Pods-OliveYoung_iOS.debug.xcconfig */,
-				D2EAB98233AD1B9FEC1286C2 /* Pods-OliveYoung_iOS.release.xcconfig */,
+				4CDFB397DA7A0D6AFB328713 /* Pods-OliveYoung_iOS.debug.xcconfig */,
+				0F826A499B1FA6828DD5A23B /* Pods-OliveYoung_iOS.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		273B16E2E713DD87708CD021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0F2959D78BAC8EEE2EF9DD /* Pods_OliveYoung_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		92631462264FACAE00E8E8FD = {
@@ -113,7 +145,7 @@
 				9263146D264FACAE00E8E8FD /* OliveYoung_iOS */,
 				9263146C264FACAE00E8E8FD /* Products */,
 				197F4F2D7485438A2F6771E4 /* Pods */,
-				95F1C47A352CA2A0FDDC81E7 /* Frameworks */,
+				273B16E2E713DD87708CD021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +170,7 @@
 		92631487264FAFDA00E8E8FD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ECD4A15E2658C533004E9BA4 /* Fonts */,
 				9263146E264FACAE00E8E8FD /* AppDelegate.swift */,
 				92631470264FACAE00E8E8FD /* SceneDelegate.swift */,
 				92631477264FACB200E8E8FD /* Assets.xcassets */,
@@ -221,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				926314AD264FB4BA00E8E8FD /* File3.swift */,
+				F25312FE2657CA92003554B7 /* ProductCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +267,23 @@
 				926314B0264FB4C200E8E8FD /* File4.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		ECD4A15E2658C533004E9BA4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ECD4A1652658C5CB004E9BA4 /* NotoSansCJKkr-Black.otf */,
+				ECD4A1692658C5CB004E9BA4 /* NotoSansCJKkr-Bold.otf */,
+				ECD4A1662658C5CB004E9BA4 /* NotoSansCJKkr-DemiLight.otf */,
+				ECD4A1612658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf */,
+				ECD4A1622658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf */,
+				ECD4A1682658C5CB004E9BA4 /* NotoSansCJKkr-Regular.otf */,
+				ECD4A1642658C5CB004E9BA4 /* NotoSansCJKkr-Thin.otf */,
+				ECD4A1672658C5CB004E9BA4 /* NotoSansMonoCJKkr-Bold.otf */,
+				ECD4A1632658C5CB004E9BA4 /* NotoSansMonoCJKkr-Regular.otf */,
+				ECD4A15F2658C5BF004E9BA4 /* Montserrat-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		95F1C47A352CA2A0FDDC81E7 /* Frameworks */ = {
@@ -286,11 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9263147F264FACB200E8E8FD /* Build configuration list for PBXNativeTarget "OliveYoung_iOS" */;
 			buildPhases = (
-				32A6CC51C06E519717D76831 /* [CP] Check Pods Manifest.lock */,
+				7DDB75EAFA30CFAD0E898A69 /* [CP] Check Pods Manifest.lock */,
 				92631467264FACAE00E8E8FD /* Sources */,
 				92631468264FACAE00E8E8FD /* Frameworks */,
 				92631469264FACAE00E8E8FD /* Resources */,
-				C0DEF2BFD59974CFF5A1A64E /* [CP] Embed Pods Frameworks */,
+				6F7336852ECD5020FEAC3479 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,19 +390,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				9263147B264FACB200E8E8FD /* LaunchScreen.storyboard in Resources */,
+				ECD4A1712658C5CB004E9BA4 /* NotoSansCJKkr-Regular.otf in Resources */,
+				ECD4A16A2658C5CB004E9BA4 /* NotoSansCJKkr-Light.otf in Resources */,
+				ECD4A16E2658C5CB004E9BA4 /* NotoSansCJKkr-Black.otf in Resources */,
 				ECAE124D2652427B002A3533 /* DetailCollectionViewCell.xib in Resources */,
 				92631478264FACB200E8E8FD /* Assets.xcassets in Resources */,
 				9263149C264FB20400E8E8FD /* OliveReview.storyboard in Resources */,
 				92631476264FACAE00E8E8FD /* Main.storyboard in Resources */,
+				ECD4A16D2658C5CB004E9BA4 /* NotoSansCJKkr-Thin.otf in Resources */,
+				ECD4A1602658C5BF004E9BA4 /* Montserrat-Thin.ttf in Resources */,
+				ECD4A16F2658C5CB004E9BA4 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				ECD4A16C2658C5CB004E9BA4 /* NotoSansMonoCJKkr-Regular.otf in Resources */,
+				ECD4A1722658C5CB004E9BA4 /* NotoSansCJKkr-Bold.otf in Resources */,
 				ECAE123926517C5A002A3533 /* homeViewCollectionViewCell.xib in Resources */,
 				92631499264FB1F600E8E8FD /* OliveHome.storyboard in Resources */,
+				ECD4A1702658C5CB004E9BA4 /* NotoSansMonoCJKkr-Bold.otf in Resources */,
+				ECD4A16B2658C5CB004E9BA4 /* NotoSansCJKkr-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32A6CC51C06E519717D76831 /* [CP] Check Pods Manifest.lock */ = {
+		6F7336852ECD5020FEAC3479 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,7 +434,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0DEF2BFD59974CFF5A1A64E /* [CP] Embed Pods Frameworks */ = {
+		7DDB75EAFA30CFAD0E898A69 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,6 +471,7 @@
 				92631496264FB18C00E8E8FD /* NetworkResult.swift in Sources */,
 				EC9CF4032653D0F500BB1B71 /* RankingVC.swift in Sources */,
 				926314AB264FB4B100E8E8FD /* File2.swift in Sources */,
+				F25312FF2657CA92003554B7 /* ProductCollectionViewCell.swift in Sources */,
 				92631473264FACAE00E8E8FD /* ViewController.swift in Sources */,
 				926314A5264FB49F00E8E8FD /* File.swift in Sources */,
 				9263146F264FACAE00E8E8FD /* AppDelegate.swift in Sources */,
@@ -567,7 +629,7 @@
 		};
 		92631480264FACB200E8E8FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63603D301CF9C10A1E962C1C /* Pods-OliveYoung_iOS.debug.xcconfig */;
+			baseConfigurationReference = 4CDFB397DA7A0D6AFB328713 /* Pods-OliveYoung_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -587,7 +649,7 @@
 		};
 		92631481264FACB200E8E8FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2EAB98233AD1B9FEC1286C2 /* Pods-OliveYoung_iOS.release.xcconfig */;
+			baseConfigurationReference = 0F826A499B1FA6828DD5A23B /* Pods-OliveYoung_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
