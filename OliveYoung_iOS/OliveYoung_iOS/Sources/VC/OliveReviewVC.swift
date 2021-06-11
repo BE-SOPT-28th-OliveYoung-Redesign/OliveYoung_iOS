@@ -98,6 +98,9 @@ class OliveReviewVC: UIViewController, UICollectionViewDelegate, UIScrollViewDel
     
     @IBAction func backButtonClicked(_ sender: Any) {
         print("뒤로 갑니당")
+        
+        self.navigationController?.popViewController(animated: true)
+        
     }
     
     @IBAction func bagButtonClicked(_ sender: Any) {

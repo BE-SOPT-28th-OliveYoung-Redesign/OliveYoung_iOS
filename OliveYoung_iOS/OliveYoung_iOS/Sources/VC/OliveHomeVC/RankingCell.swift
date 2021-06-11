@@ -81,12 +81,20 @@ class RankingCell: UICollectionViewCell {
     }
     
     func setData(imageName: String,title: String, list: String, review: String) {
-        if let image = UIImage(named: imageName) {
-            mainImageView.image = image
-        }
+//        if let image = UIImage(named: imageName) {
+//            mainImageView.image = image
+//        }
+        
 //        if let image2 = UIImage(named: imageSection) {
 //            sectionImageView.image = image2
 //        }
+        
+        // 이미지 url 처리
+        let url = URL(string: imageName)
+        print(url)
+        let data = try? Data(contentsOf: url!)
+        mainImageView.image = UIImage(data: data!)
+        
         brandLabel.text = title
         listLabel.text = list
         reviewLabel.text = review

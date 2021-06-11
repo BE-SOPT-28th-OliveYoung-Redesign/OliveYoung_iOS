@@ -2,7 +2,7 @@
 //  NetworkResult.swift
 //  OliveYoung_iOS
 //
-//  Created by 장서현 on 2021/05/15.
+//  Created by 김승찬 on 2021/06/11.
 //
 
 import Foundation

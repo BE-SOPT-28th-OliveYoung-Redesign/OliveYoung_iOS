@@ -4,11 +4,7 @@
 //
 //  Created by 김승찬 on 2021/05/18.
 //
-
-
 import UIKit
-
-//let cellID = "RankingCell"
 
 class RankingVC: BaseVC {
     let width = UIScreen.main.bounds.width
@@ -20,10 +16,8 @@ class RankingVC: BaseVC {
         let CV = UICollectionView(frame: .zero, collectionViewLayout: flowlayout)
         flowlayout.scrollDirection = .vertical
         return CV
-    }()
-        
-    //var backGroundImage: UIView?
-            
+    }() 
+    var arr : [ReviewDataModel] = []
     var appList = [RannkingListDataModel(mainImageView: "Group 126", brandLabel: "에뛰드 |", listLabel: "픽싱틴트",      reviewLabel: "매트매트하고 누디뉴디한 찐 진저밀크티 컬러 픽싱틴트! 베이스로도 좋지만 메인컬러로 사용하기 위해 구매했고... "),
                    
                    RannkingListDataModel(mainImageView: "Group 125", brandLabel: "롬앤", listLabel: "배러댄팔레트", reviewLabel: "뉴트럴의 뜻이 뭔지 아세요? 쿨톤 웜톤 상관없이 다 쓸수 있는 아이팔레트가 무슨뜻인지 아세요? 정답은 니 톤에..."),
@@ -36,10 +30,11 @@ class RankingVC: BaseVC {
                    
                    RannkingListDataModel(mainImageView: "2021-05-12-11-38-1", brandLabel: "에뛰드", listLabel: "픽싱틴트",      reviewLabel: "매트매트하고 누디뉴디한 찐 진저밀크티 컬러 픽싱틴트! 베이스로도 좋지만 메인컬러로 사용하기 위해 구매했고... ")
                    ]
-    
-//    var bottomaList = [BottomImageDataModel(bottomImage: "review-bg")]
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        setReviewData()
+        print("뷰디드로드", arr.count)
         
         var sellRankingImage : UIImageView
         sellRankingImage = UIImageView(frame:CGRect(x: 0, y: 89, width:125, height:50));
@@ -71,103 +66,111 @@ class RankingVC: BaseVC {
         menuListImage.image = UIImage(named: "frame-10.png")
         self.view.addSubview(menuListImage)
         
-        
-        
         RankingCollectionView.dataSource = self
         RankingCollectionView.delegate = self
-        
+        RankingCollectionView.register(RankingCell.self, forCellWithReuseIdentifier: "RankingCell")
+
         view.addSubview(RankingCollectionView)
-//        view.addSubview(backGroundImage)
-//        backGroundImage.translatesAutoresizingMaskIntoConstraints = false
-//        backGroundImage.backgroundColor = .lightGray
-//        backGroundImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 0).isActive = true
-//        backGroundImage.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
-//        backGroundImage.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 0).isActive = true
-//        backGroundImage.backgroundColor = .gray
-        
         RankingCollectionView.translatesAutoresizingMaskIntoConstraints = false
         RankingCollectionView.topAnchor.constraint(equalTo: menuListImage.bottomAnchor, constant: 0).isActive = true
         RankingCollectionView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
         RankingCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         RankingCollectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
         RankingCollectionView.backgroundColor = .white
-        
-//        RankingCollectionView.register(HeaderCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeaderCollectionReusableView.identifier)
-//        RankingCollectionView.register(HeaderCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: FooterCollectionReusableView.identifier)
-        
-        RankingCollectionView.register(RankingCell.self, forCellWithReuseIdentifier: "RankingCell")
-        
-//        RankingCollectionView.register(BackgroundCollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: BackgroundCollectionReusableView.identifier)
         RankingCollectionView.reloadData()
-        
-        
     }
+    
+    // parentVC
+    func getParentViewController() -> UIViewController? {
+        var parentResponder: UIResponder? = self
+        while parentResponder != nil {
+            parentResponder = parentResponder!.next
+            if let viewController = parentResponder as? UIViewController {
+                return viewController
+            }
+        }
+        return nil
+    }
+    
+    func setReviewData() {
+        ReviewService.shared.getReview { (response) in
+            switch(response)
+            {
+            case .success(let ReviewDataModel):
+                if let data = ReviewDataModel as? [ReviewDataModel] {
+                    for i in 0...data.count-1 {
+                        self.arr.append(data[i])
+                    }
+                    for i in 0...self.arr.count-1 {
+                        print(self.arr[i])
+                    }
+                    self.RankingCollectionView.reloadData()
+                }
+            case .requestErr(let message) :
+                print("requestERR",message)
+            case .pathErr :
+                print("pathERR")
+            case .serverErr:
+                print("serverERR")
+            case .networkFail:
+                print("networkFail")
+            }
+        }
+    }
+    mㅐ
 }
-
-
 extension RankingVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return appList.count
     }
-//    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indextPath: IndexPath) -> UICollectionReusableView {
-//        let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: BackgroundCollectionReusableView, for: indexPath) as! BackgroundCollectionReusableView
-//
-//        header.configure()
-//
-//        return header
-//
-//    }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RankingCell.identifier, for: indexPath) as? RankingCell else {return UICollectionViewCell()}
         
         if indexPath.row == 0 {
+            
+                guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RankingCell.identifier, for: indexPath) as? RankingCell else {return UICollectionViewCell()}
+            
             cell.contentView.addSubview(UIImageView(image: UIImage(named: "review-banner-1")))
             cellwidth = width * (163 / 375)
             cellheight = cellwidth * (227 / 163)
+//            print("1")
+            return cell
         }
+        
         else {
-            cell.setData(imageName: appList[indexPath.row-1].mainImageView, title: appList[indexPath.row-1].brandLabel, list: appList[indexPath.row-1].listLabel, review: appList[indexPath.row-1].reviewLabel)
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RankingCell.identifier, for: indexPath) as? RankingCell else {return UICollectionViewCell()}
+//            print("collectionView")
+//            print(self.arr.count)
+            if self.arr.count > 0
+            {
+            cell.setData(imageName: arr[indexPath.row-1].mainImageView, title: arr[indexPath.row-1].brandLabel, list: arr[indexPath.row-1].listLabel, review: arr[indexPath.row-1].reviewLabel)
+//                print("2")
+                return cell
+            }
+            else
+            {
+                return cell
+            }
         }
-        return cell
     }
-
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let parentVC = self.getParentViewController()
+        let storyBoard: UIStoryboard = UIStoryboard(name: "OliveReview", bundle: nil)
+        guard let nextVC = storyBoard.instantiateViewController(identifier: "OliveReviewVC") as? OliveReviewVC else {return}
+        
+        parentVC?.navigationController?.pushViewController(nextVC, animated: true)
+    }
 }
 extension RankingVC: UICollectionViewDelegate {
-//    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-//
-//        if kind == UICollectionView.elementKindSectionFooter {
-//
-//            let footer = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: FooterCollectionReusableView.identifier , for: indexPath) as! FooterCollectionReusableView
-//
-//            footer.configure()
-//            return footer
-//        }
-//
-//        let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeaderCollectionReusableView.identifier , for: indexPath) as! HeaderCollectionReusableView
-//
-//        header.configure()
-//        return header
-//    }
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-//        CGSize(width : view.frame.size.width, height: 200)
-//    }
-//    
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
-//        CGSize(width : view.frame.size.width, height: 200)
-//    }
-    
 }
 
 extension RankingVC: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-
-        
         let cellwidth = width * (163 / 375)
         let cellheight = cellwidth * (227 / 163)
         return CGSize(width: cellwidth, height: cellheight)
     }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 21
     }
@@ -177,16 +180,5 @@ extension RankingVC: UICollectionViewDelegateFlowLayout {
     internal func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 11, left: 21, bottom: 8, right: 21)
     }
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, cellForItemAt indexPath: IndexPath) -> IndexPath {
-//        if indexPath.row == 0 {
-//
-//        }
-//
-//
-//    }
-   
+
 }
-//비율로 맞춤 최대한
-// 현재 스크린의 가로값 기준으로 받고 대충 기종이 나온다
-// 375 이상이면 어디에 있는 오토를 수정 ...!!!!!
-// 다 자기 그거에 맞게 수정 !!!!!!!!!

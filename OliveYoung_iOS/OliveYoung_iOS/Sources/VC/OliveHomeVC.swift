@@ -14,7 +14,7 @@ class OliveHomeVC : BaseVC {
     //let homeViews : [BaseVC] = [RankingVC(), OtkVC(), SinsangVC(), RankingVC(), KihoickVC(), EventVC()]
     
     var homeViews  : [BaseVC] = []
-
+    
     func scrollToMenuIndex(menuIdx: Int){
         let indexPath = NSIndexPath(item: menuIdx, section: 0)
         collectionView.isPagingEnabled = false;
